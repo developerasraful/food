@@ -1,0 +1,461 @@
+img{
+    max-width: 100%;
+}
+body{
+    background: rgb(248, 248, 248);
+}
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+.header img{
+    margin-top: 15px;
+    cursor: pointer;
+}
+.manu{
+    
+}
+.manu ul{
+    text-align: right;
+}
+.manu ul li{
+    display: inline-block;
+}
+.manu ul li a{
+    display: block;  
+    font-size: 15px;
+    padding: 0px 20px;
+    text-decoration: none; 
+    text-transform: capitalize;
+    font-weight: 700;
+    color: rgb(34, 182, 108);
+    transition: .5s;
+    line-height: 60px;
+}
+.manu ul li a:hover{
+    color: black;
+}
+.header span{
+    font-size: 20px;
+    border: 1px solid rgb(34, 182, 108);
+    margin-top: 15px;
+    display: inline-block;
+    padding: 4px 10px;
+    background-color: rgb(29, 161, 95);
+    color: rgb(255, 255, 255);   
+    transition: .5s; 
+    font-weight: 700
+}
+.header span:hover{
+    background-color: black;
+    color: rgb(34, 182, 108);
+    cursor: pointer;
+    border: 4px solid rgb(34, 182, 108);
+}
+.banner{
+    margin-top: 90px;
+}
+.banner img{
+    margin-top: 30px;
+}
+.banner h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 150px; 
+    margin-bottom: 20px;
+}
+.banner p{
+    font-size: 15px;
+    font-weight: 700;
+    color: gray;
+    margin-bottom: 20px;
+}
+.bn a{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: black;
+    padding: 8px 25px;
+    background:rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 20px;
+    box-shadow: gray 3px 3px 10px 3px;
+    transition: .5s;
+}
+.bn a:hover{
+    background: rgb(34, 182, 108);
+    box-shadow: rgb(255, 255, 255) 5px 5px 50px 5px;
+    color: rgb(255, 255, 255);
+    
+}
+.number{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: rgb(34, 182, 108);
+}
+.number h1{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.number p{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+}
+.title{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.title h1{
+    font-weight: 700;
+    color: black;
+    margin: 20px;
+    font-size: 35px;
+}
+.title p{
+    margin: 20px;
+}
+.title a{
+    margin: 20px;
+}
+.ti img{
+    padding-top: 83px;
+}
+.make{
+    padding-top: 30px;
+}
+.make h1{
+    padding-top: 30px;
+}
+.bak h1{
+    text-align: center;
+    font-weight: 700;
+    padding: 20px;
+    color: white;
+    transition: .5s;
+}
+.bak h1:hover{
+    background-image: linear-gradient(10deg,rgb(50, 218, 92),rgb(64, 255, 214),rgb(1, 93, 105) );
+    color: black;
+}
+.kt img{
+    height: 240px;
+    width: 300px;
+}
+.we h5{
+    font-weight: 500;
+    color: black;
+
+}
+.we h4{
+    font-weight: 600;
+    color: black;
+}
+.we h3{
+    font-weight: 700;
+    color: black;
+}
+.we{
+    padding-bottom: 60px;
+}
+.life{
+    text-align: center;
+    background-image: url(./png-img/1.jpg);
+    background-attachment: fixed;
+    padding: 70px 0;
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.life h1{
+    font-weight: 700;
+    max-width: 920px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    transition: .5s;
+    
+}
+.life p{
+    font-weight: 400;
+    max-width: 920px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    transform-origin: .5s;
+}
+.ex{
+    text-align: center;
+}
+.ex h1{
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.ex p{
+    font-weight: 600;
+    color: black;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+del{
+    color: rgb(255, 7, 7);
+    font-weight: 800;
+    
+}
+.sm{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.sm img{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    transition: .5s;
+    border: rgb(255, 255, 255) 1px solid;
+}
+.sm img:hover{
+    transform: translate(10px,10px);
+    box-shadow: 5px 5px 40px 5px gray;
+    border: rgb(255, 0, 0) 1px solid;
+}
+.sm h4{
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    padding-top: 10px;
+}
+.sm p{
+    text-align: center;
+    margin-top: 10px;
+}
+.sm a{
+    margin: auto;
+}
+
+.texts{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(45deg,rgb(50, 218, 92),rgb(41, 127, 153),rgb(56, 231, 100),rgb(143, 72, 119));
+    
+}
+
+.texts img{
+    border-radius: 50%;
+    height:150px;
+    width: 150px;
+    margin-bottom: 20px;
+    transition: .5s;
+    border: rgb(255, 255, 255) 5px solid;
+}
+.texts img:hover{
+    transform: rotate(360deg);
+    box-shadow: rgb(255, 255, 255) 10px 10px 10px 10px;
+    border-color: rgb(255, 0, 0);
+}
+.texts p{
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: rgb(252, 252, 252);
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.texts p:hover{
+    transform: rotateX(360deg);
+}
+.texts h6{
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.revew{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background: rgb(253, 253, 253);
+}
+.revew h1{
+    text-align: center;
+    padding-top: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: black;
+    transition: .5s;
+}
+.revew h4{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+    font-weight: 600;
+    transition: .5s;
+}
+.revew p{
+    text-align: center;
+    padding-top: 30px;
+    color: black;
+    font-weight: 500;
+    transition: .5s;
+}
+.revew ul{}
+.revew ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-weight: 400;
+    transition: .5s;
+}
+.revew h1:hover{
+    color: rgb(255, 0, 0);
+}
+.revew h4:hover{
+    color: rgb(255, 0, 0);
+}
+.revew p:hover{
+    color: rgb(255, 0, 0);
+}
+.revew ul li:hover{
+    color: rgb(255, 0, 0);
+}
+.revew .bn{
+    text-align: center;
+    margin-top: 30px;
+}
+.bn input{
+    font-size: 20px;
+    height: 47px;
+    transition: .5s;
+}
+.bn input:hover{
+    box-shadow: rgb(151, 143, 143) 10px 5px 10px 5px;
+}
+.brack{
+    background-image: url(./png-img/bg2.jpg);
+    padding: 100px 0;
+    background-position: bottom center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+}
+.brack h1{
+    float: left;
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 255, 255) 30px 30px 60px; 
+    transition: .5s;
+}
+.brack h1:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 255, 255) 30px 30px 60px; 
+}
+.herry{}
+.herry h1{
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.herry p{
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.last{
+    margin: auto;
+    padding-bottom: 70px;
+    padding-top: 20px;
+}
+.last input{
+    float: left;
+    height: 47px;
+    width: 500px;
+    font-size: 20px;
+    transition: .5s;
+    margin-left: 180px;
+    margin-right: 30px;
+    box-shadow: rgb(151, 143, 143) 0px 0px 2px 2px;
+    transition: .5s;
+}
+.last input:hover{
+    box-shadow: rgb(255, 0, 0) 1px 2px -40px 5px;
+} 
+.social{
+    text-align: center;
+    /* padding: 50px; */
+    padding-top: 30px;
+
+    background: rgb(34, 182, 108);
+}
+.social ul{ }
+.social ul li{ 
+    display: inline-block;
+}
+.social ul li a{ 
+    display: block;
+    height: 60px;
+    width: 60px;
+    margin-right: 30px;
+    font-size: 30px;
+    line-height: 50px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow:rgb(139, 136, 136) 10px 10px 30px 10px ; 
+    transition: .5s;
+    color: rgb(255, 0, 0);
+} 
+.social ul li a:hover{ 
+    background: rgb(34, 182, 108);
+    color: rgb(255, 255, 255);
+    box-shadow:rgb(255, 255, 255) 10px 10px 30px 10px ;
+    transform: rotate(360deg);
+    border: 2px solid rgb(255, 0, 0);
+}
+.map{
+    padding-top: 30px;
+}
+.location{}
+.location h1{
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+.location h3{
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+.location b{
+    color: red;
+}
